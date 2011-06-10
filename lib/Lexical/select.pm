@@ -1,6 +1,6 @@
 package Lexical::select;
 
-#ABSTRACT: provides a lexically scoped filehandle select function
+#ABSTRACT: provides a lexically scoped currently selected filehandle
 
 use strict;
 use warnings;
