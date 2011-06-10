@@ -4,7 +4,6 @@ package Lexical::select;
 
 use strict;
 use warnings;
-use Carp qw[croak];
 use Symbol 'qualify_to_ref';
 
 our @ISA    = qw[Exporter];
