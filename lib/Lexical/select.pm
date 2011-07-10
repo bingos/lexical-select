@@ -84,4 +84,8 @@ when the object is C<DESTROY>ed, for instance when the object goes out of scope.
 
 =back
 
+=head1 SEE ALSO
+
+L<SelectSaver>
+
 =cut
