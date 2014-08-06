@@ -18,7 +18,7 @@ sub lselect {
 sub restore {
   my $self = shift;
   return if $self->{_restored};
-  select delete $self->{old_fh};
+  CORE::select delete $self->{old_fh};
   return $self->{_restored} = 1;
 }
 
