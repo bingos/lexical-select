@@ -56,6 +56,9 @@ This is where Lexical::select comes in.
 Lexical::select provides the C<lselect> function. As demonstrated in the C<SYNOPSIS>, C<lselect> will change the currently
 selected filehandle to the filehandle of your choice for the duration of the enclosing lexical scope.
 
+It should be noted that the duration of the selected filehandle is limited to the lexical scope, not the effects of the
+selected filehandle.
+
 =head1 FUNCTIONS
 
 Functions exported by default.
